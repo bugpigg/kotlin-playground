@@ -1,3 +1,4 @@
+// 계산기 만들어보기 예제
 val trim = """[^.\d-+*/]""".toRegex()
 fun trim(v: String): String {
     return v.replace(trim,"")
