@@ -56,5 +56,6 @@ fun StringBuilder.wrap(begin: Char, end: Char, block: StringBuilder.() -> Unit) 
 }
 
 fun main() {
-
+    val json0 = Json0(77, "Tom")
+    println(stringify(json0))
 }
